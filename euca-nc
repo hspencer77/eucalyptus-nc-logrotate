@@ -1,0 +1,4 @@
+/var/log/eucalyptus/nc-rotate.log {
+	rotate 10
+	compress
+}
