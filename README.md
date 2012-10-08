@@ -17,4 +17,4 @@ On the machine that is running the eucalyptus-nc process, install the following 
 
 * To make the new cronjob is loaded, restart crond (i.e. service crond restart)
 
-By default, the rotation will occur with the /var/log/eucalyptus/nc.log file is greater than 29 M. Upon rotation, it zeros out /var/log/eucalyptus/nc.log file. This is done to keep the embedded Eucalyptus log rotation process from being kicked off when the file hits 32 M.  
+By default, the rotation will occur with the /var/log/eucalyptus/nc.log file is greater than or equal to 29 M. Upon rotation, it zeros out /var/log/eucalyptus/nc.log file. This is done to keep the embedded Eucalyptus log rotation process from being kicked off when the file hits 32 M.  
